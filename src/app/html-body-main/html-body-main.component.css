@@ -1,0 +1,6 @@
+#html-body-main-table {
+    margin: 8mm 0 3mm 2cm !important;
+    border: 1mm solid rgb(0, 0, 0) !important;
+    border-radius: 2mm !important;
+    box-shadow: 0 0 8mm 2mm rgb(244, 244, 244) !important;
+}

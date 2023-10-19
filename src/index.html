@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="html-head">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="jozef.javorsky.dodo@gmail.com, https://github.com/jozef-javorsky-dodo">
+  <meta name="description" content="Null content yet, any description.">
+  <meta name="keywords" content="Null content yet, any keywords.">
+  <title>🌌Tangled ⚛️ Maze🎲YX</title>
+  <base href="/">
+</head>
+
+<body class="mat-typography">
+  <app-root></app-root>
+
+  <script>
+
+    String("use strict");
+
+    try {
+
+      let fav = document.createElement(String("link"));
+
+      fav.setAttribute(String("rel"), String("icon"));
+      fav.setAttribute(String("type"), String("image/x-icon"));
+      fav.setAttribute(String("sizes"), String("16x16"));
+      fav.setAttribute(String("id"), String("html-head-link-fav"));
+      fav.setAttribute(String("href"),
+        String(
+          "data:image/x-icon;" +
+          "base64," +
+          "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkW" +
+          "g2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUA" +
+          "AAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAARSURBVDhPYx" +
+          "gFo2AUQAEDAwADEAABuGyTOQAAAABJRU5ErkJggg=="
+        ));
+      document.querySelector(String("#html-head")).appendChild(fav);
+
+    } catch (_err) {
+
+      if (_err) {
+        console.clear();
+        alert(String("bug"));
+        console.log(_err);
+      };
+
+    };
+
+  </script>
+</body>
+
+</html>
